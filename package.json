@@ -1,0 +1,26 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.7",
+    "mini-css-extract-plugin": "^1.6.2",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.1",
+    "svelte": "^3.44.0",
+    "svelte-loader": "^3.0.0",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack serve"
+  },
+  "dependencies": {
+    "bulma-carousel": "^4.0.24",
+    "svelte-particles": "^1.19.0"
+  }
+}

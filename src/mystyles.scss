@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+// Set your brand colors
+$black: #000000;
+$turqouise: #3ac2d4;
+$whit: #FFFFFF;
+// Update Bulma's global variables
+$family-primary: 'Jetbrains Mono', monospace;
+$card-color: black;
+$card-background-color: white;
+$primary:black;
+$link: $turqouise;
+$info: white;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma-carousel/src/sass/index.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
